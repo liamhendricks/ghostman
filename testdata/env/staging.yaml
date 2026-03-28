@@ -1,0 +1,4 @@
+base_url: https://staging.api.example.com
+token: staging-token-123
+name: test-user
+api_version: v1

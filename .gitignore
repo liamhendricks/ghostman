@@ -1,0 +1,11 @@
+# Build output
+/ghostman
+
+# Environment files (may contain secrets)
+.ghostman/env/*.yml
+.ghostman/env/*.yaml
+**/vars.yaml
+
+#for working with agents
+.planning
+.claude
