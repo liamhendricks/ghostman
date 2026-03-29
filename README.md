@@ -51,12 +51,12 @@ headers:
 
 # Login
 
-Authenticates a user and returns a JWT token.
+Authenticates a user and returns a user object.
 
 ```json
 {
-  "username": "{{env:username}}",
-  "password": "{{env:password}}"
+  "username": "user",
+  "password": "pass"
 }
 ```
 
@@ -428,7 +428,7 @@ Optional markdown body — renders as documentation.
 
 ```json
 {
-  "title": "{{env:post_title}}",
+  "title": "title",
   "body": "Hello"
 }
 ```
